@@ -19,5 +19,15 @@ def area(width, height):
     - It takes in the 'height' (float) as a parameter
     - It returns a float value of the area
     """
-    
+
     return width * height
+
+def perimeter(width, height):
+    """
+    This calculates the perimeter of a rectangle:
+    - It takes in the 'width' (float) as a parameter
+    - It takes in the 'height' (float) as a parameter
+    - It returns a float value of the perimeter
+    """
+
+    return 2 * (width + height)
