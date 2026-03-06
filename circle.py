@@ -18,8 +18,14 @@ def area(radius):
     - It takes in the 'radius' (float) as a parameter
     - It returns a float value of the area
     """
+    
     return math.pi * (radius ** 2)
 
+def circumference(radius):
+    """
+    This calculates the circumference of a circle:
+    - It takes in the 'radius' (float) as a parameter
+    - It returns a float value of the circumference
+    """
 
-    
-
+    return 2 * math.pi * radius
