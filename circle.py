@@ -12,3 +12,14 @@ Functions:
 
 import math
 
+def area(radius):
+    """
+    This calculates the area of a circle:
+    - It takes in the 'radius' (float) as a parameter
+    - It returns a float value of the area
+    """
+    return math.pi * (radius ** 2)
+
+
+    
+
