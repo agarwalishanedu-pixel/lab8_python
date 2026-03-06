@@ -11,3 +11,13 @@ Functions:
 """
 
 import math
+
+def area(width, height):
+    """
+    This calculates the area of a rectangle:
+    - It takes in the 'width' (float) as a parameter
+    - It takes in the 'height' (float) as a parameter
+    - It returns a float value of the area
+    """
+    
+    return width * height
