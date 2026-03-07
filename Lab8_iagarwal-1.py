@@ -1,7 +1,7 @@
 """
 Program Name: Lab 8 (Main File)
 My name: Ishan Agarwal
-Purpose: This program is meant to deepen my understanding of functions in python. Also this is used to calcu
+Purpose: This program is meant to deepen my understanding of functions in python. Also this is used to make multiple different calculations for circles and rectangles.
 Starter Code: None
 Date: 03/06/2026 
 """
@@ -41,5 +41,27 @@ while run:
         final_value = c.circumference(radius)
         print(f"The circumference of the circle is {final_value}.")
         print("")
+        
+    elif option == "3":
+        width = float(input("Enter the width of the rectangle: "))
+        height = float(input("Enter the height of the rectangle: "))
+        print("")
+        final_value = r.area(width, height)
+        print(f"The area of the rectangle is {final_value}.")
+        print("")
 
+    elif option == "4":
+        width = float(input("Enter the width of the rectangle: "))
+        height = float(input("Enter the height of the rectangle: "))
+        print("")
+        final_value = r.perimeter(width, height)
+        print(f"The perimeter of the rectangle is {final_value}.")
+        print("")
 
+    elif option == "5":
+        print("Goodbye!")
+        run = False
+
+    if run:
+        input("Press Enter to continue...")
+        print("")
