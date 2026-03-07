@@ -11,7 +11,7 @@ Date: 03/06/2026
 import circle as c
 import rectangle as r
 
-run: bool = true
+run: bool = True
 
 while run:
     print("Geometry Calculator")
@@ -23,3 +23,23 @@ while run:
     print("5. Exit")
     print("")
     
+    #user inputs their choice
+    option: str = input("Enter your choice (1-5): ")
+    print("")
+
+    # Evaluate their choice
+    if option == "1":
+        radius = float(input("Enter the radius of the circle: "))
+        print("")
+        final_value = c.area(radius)
+        print(f"The area of the circle is {final_value}.")
+        print("")
+    
+    elif option == "2":
+        radius = float(input("Enter the radius of the circle: "))
+        print("")
+        final_value = c.circumference(radius)
+        print(f"The circumference of the circle is {final_value}.")
+        print("")
+
+
